@@ -1,4 +1,5 @@
 import "./App.css";
+import Chart from "./components/Chart/Chart";
 import FoodList from "./components/FoodList/FoodList";
 import Navbar from "./components/Navbar/Navbar";
 import { FaceSmileIcon } from "@heroicons/react/24/solid";
@@ -15,6 +16,8 @@ function App() {
         Happy Coding !
         <FaceSmileIcon className="h-10 w-10 text-white" />
       </h1>
+
+      <Chart></Chart>
     </div>
   );
 }

@@ -35,7 +35,7 @@ const FoodCard = (props) => {
     }
   };
   return (
-    <div className="card w-96 mx-auto bg-indigo-200 shadow-xl flex flex-col">
+    <div className="card w-96 mx-auto bg-indigo-200 shadow-xl">
       <figure>
         <img className="h-{380px} w-{256px}" src={imageLink} alt="FoodItem" />
       </figure>
@@ -48,8 +48,8 @@ const FoodCard = (props) => {
         {features.map((feature, id) => (
           <Feature key={id} feature={feature}></Feature>
         ))}
-
-        <div className="card-actions my-auto items-center justify-between">
+        {/* <p></p> */}
+        <div className="card-actions mt-auto items-center justify-between">
           <div className="rating gap-1" onClick={bookmarkToast}>
             <span>
               {love === true ? (
