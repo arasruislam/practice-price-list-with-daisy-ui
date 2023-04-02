@@ -22,7 +22,7 @@ const Navbar = () => {
         </span>
       </div>
       <ul
-        className={`md:flex justify-center absolute duration-500 bg-orange-200 p-2 md:static ${
+        className={`md:flex justify-center absolute duration-500 bg-orange-200 md:bg-transparent p-2 md:static ${
           open ? "top-12" : "-top-40"
         }`}
       >

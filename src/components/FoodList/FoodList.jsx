@@ -15,7 +15,7 @@ const FoodList = () => {
         Picked Up Your Favorite Foodies !
       </h1>
 
-      <div className="grid grid-cols-3 gap-4 mt-8">
+      <div className="grid md:grid-cols-3 gap-4 mt-8">
         {foods.map((food) => (
           <FoodCard key={food.id} food={food}></FoodCard>
         ))}
