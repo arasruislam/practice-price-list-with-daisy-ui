@@ -1,0 +1,32 @@
+[  {    "id": 1,    "name": "Pizza Margherita",    "price": 10.99,    "features": ["Tomato sauce", "Mozzarella cheese", "Fresh basil"],
+    "imageLink": "https://example.com/pizza-margherita.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Grilled Chicken Salad",
+    "price": 8.99,
+    "features": ["Mixed greens", "Grilled chicken", "Tomatoes", "Cucumbers", "Croutons"],
+    "imageLink": "https://example.com/grilled-chicken-salad.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Beef Burger",
+    "price": 12.99,
+    "features": ["Beef patty", "Brioche bun", "Lettuce", "Tomatoes", "Onions", "Cheese"],
+    "imageLink": "https://example.com/beef-burger.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pad Thai",
+    "price": 9.99,
+    "features": ["Rice noodles", "Tofu", "Bean sprouts", "Peanuts", "Lime wedge"],
+    "imageLink": "https://example.com/pad-thai.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Spicy Tuna Roll",
+    "price": 7.99,
+    "features": ["Sushi rice", "Tuna", "Spicy mayo", "Avocado"],
+    "imageLink": "https://example.com/spicy-tuna-roll.jpg"
+  }
+]
